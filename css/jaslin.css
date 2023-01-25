@@ -1,0 +1,49 @@
+body{
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+ }
+ 
+ h1,h2, h3{
+    font-weight: bold;
+    margin-top:15px;
+
+ }
+
+ ul li{
+    margin-left: 25px;
+    list-style-type: upper-roman;
+ }
+ 
+ li {
+    background-color: lightgreen;
+    border: 5px;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+ }
+
+ img {
+   width: 25px;
+   padding: 12px;
+   border: 15px;
+   border-style: dashed;
+ }
+/* unvisited link */
+li:link {
+    color: green;
+}
+
+/* visited link */
+li:visited {
+   color: blue;
+}
+
+img:hover {
+   color: purple
+}
+
+li:active {
+   color: orange;
+}
